@@ -1,458 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#fdf8fb">
+    <title>Tanzim's Portfolio</title>
+    <link rel="icon" type="image/png" href="logo_transparent.png">
 
-<!DOCTYPE HTML>
+    <script>document.documentElement.classList.add('js');</script>
 
-<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" type="image/x-icon" href="logo_transparent.png">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="styles.css">
 
-        <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JL70D6BGHF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-JL70D6BGHF');
+    </script>
+</head>
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+<body id="top">
 
-        <!-- Style CSS -->
-        <link rel="stylesheet" href="css/style.css">
+<!-- ================= Navigation ================= -->
+<header class="site-header">
+    <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand" href="#top">
+                <span class="brand-mark" aria-hidden="true">OK</span>
+                <span class="brand-text">Khondaker Tanzim Alam</span>
+            </a>
 
-        <!--Own CSS File-->
-        <link rel="stylesheet" href="styles.css">
-		
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-JL70D6BGHF"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                    aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon" aria-hidden="true"></span>
+            </button>
 
-			gtag('config', 'G-JL70D6BGHF');
-		</script>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="#intro-body">Intro</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about-me-section">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hobby">Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#content">Scripts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
 
-        <!--Own JavaScript-->
-        <script src="jscripts.js"></script>
+<main>
 
-        <!--Responsive site-->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Tanzim's Portfolio</title>
+    <!-- ================= Intro / Hero ================= -->
+    <section id="intro-body" class="hero">
+        <div class="container">
+            <div class="row align-items-center g-4 g-lg-5">
 
-        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-              rel="stylesheet" id="bootstrap-css">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-                crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-                crossorigin="anonymous"></script>
+                <div class="col-12 col-lg-5 order-1 order-lg-2">
+                    <div class="hero-photo">
+                        <img src="hero-portrait.png" width="780" height="776" fetchpriority="high"
+                             alt="Portrait of Khondaker Tanzim Alam">
+                    </div>
+                </div>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-              rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-              crossorigin="anonymous">
-    </head>
+                <div class="col-12 col-lg-7 order-2 order-lg-1">
+                    <p class="eyebrow">Engineer <span></span> Coder <span></span> Writer</p>
 
-    <body>
-        <!--Navigation Bar-->
-        <section id="navbar-section">
-            <nav id="navbar" class="navbar navbar-expand-lg" style="background-color: transparent">
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <img class="navbar-brand" src="logo_transparent.png" href="/">
-                    <ul class="navbar-nav mt-2 mt-lg-0" style="position: fixed; top: 0; width: 50%;">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Intro</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about-me-section">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#hobby">Hobbies</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#blog">Blogs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#content">Scripts</a>
-                        </li>
+                    <h1 class="hero-title">
+                        Hi! I am<br>
+                        <span class="accent">Khondaker Tanzim Alam</span>.
+                    </h1>
+
+                    <h2 class="hero-role">
+                        I'm <span class="typewrite"
+                                   data-type='[ "almost a Web Developer.",
+                                                "a Wannabe App Developer.",
+                                                "a Lazy Coder.",
+                                                "an Unfunny Content/Script Writer." ]'></span>
+                    </h2>
+
+                    <ul class="hero-chips">
+                        <li>CSE Graduate</li>
+                        <li>Web Development</li>
+                        <li>Script Writing</li>
+                        <li>Poetry &amp; Lyrics</li>
                     </ul>
-                </div>
-            </nav>
-        </section>
 
-        <!--Intro Body-->
-        <section id="intro-body">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <img class="profile" src="ok.png">
-                    </div>
-
-                    <div class="align-self-center col-lg-6" style="align-content: center">
-                        <h1 style="font-size: 1.8em">Hi! <br>
-                            I am Khondaker Tanzim Alam.</h1>
-
-                        <h2 style="font-size: 1.8em; font-weight: 500">I'm
-                            <span class="typewrite" data-type='[ "almost a Web Developer.",
-                                                             "a Wannabe App Developer.",
-                                                             "a Lazy Coder.",
-                                                             "an Unfunny Content/Script Writer." ]'></span>
-                            <span class="wrap">|</span>
-                        </h2>
+                    <div class="hero-actions">
+                        <a class="btn btn-plum" href="#blog">Read my blogs</a>
+                        <a class="btn btn-ghost" href="#content">Watch my scripts</a>
                     </div>
                 </div>
-            </div>
-        </section>
 
-        <!--Something About Me-->
-        <section class="about-section" id="about-me-section">
-            <h1 style="color: #915b8c; text-align: center">Something About Me</h1>
-            <div class="about-image">
-                <div class="about-text">
-                    <h2><b>I am an engineer by qualification, a coder by passion, a writer by choice,
-                           a poet/lyricist by hobby, a lazy by attitude, a singer by bathroom, and a good boy by upbringing.
-                           I know how to develop a website. I know how to make modules and devices work
-                           and codes to make them run properly as required. I also know how to drink a
-                           glass of water by getting up from the bed, I don't know why is it a big deal for
-                           my family, but since it is, I am putting this information over here...</b></h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= About Me ================= -->
+    <section class="section about-section" id="about-me-section">
+        <div class="container">
+            <div class="section-head">
+                <p class="section-kicker">Who is this guy?</p>
+                <h2 class="section-title">Something About Me</h2>
+            </div>
+
+            <div class="about-panel reveal">
+                <div class="about-panel-body">
+                    <span class="about-quote" aria-hidden="true">&ldquo;</span>
+
+                    <p class="about-text">
+                        I am an engineer by qualification, a coder by passion, a writer by choice,
+                        a poet/lyricist by hobby, a lazy by attitude, a singer by bathroom, and a good boy by
+                        upbringing.
+                    </p>
+
+                    <p class="about-text">
+                        I know how to develop a website. I know how to make modules and devices work
+                        and codes to make them run properly as required. I also know how to drink a
+                        glass of water by getting up from the bed, I don't know why is it a big deal for
+                        my family, but since it is, I am putting this information over here...
+                    </p>
+
+                    <p class="about-signature">&mdash; Khondaker Tanzim Alam</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        </br></br>
+    <!-- ================= Hobbies & Interests ================= -->
+    <section class="section section--white" id="hobby">
+        <div class="container">
+            <div class="section-head">
+                <p class="section-kicker">Off the clock</p>
+                <h2 class="section-title">Hobbies &amp; Interests</h2>
+            </div>
 
-        <!--Hobbies & Interests-->
-        <section id="hobby">
-            <h1 style="color: #915b8c;text-align: center">Hobbies & Interests</h1>
-            <div class="container-fluid" style="background: white;">
-                <div class="container p-5">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-12 mb-4">
-                            <div class="card h-100 shadow-lg">
-                                <div class="card-body">
-                                    <img src="hnb1.jpg" width="100%" height="50%">
-                                    <div class="text-center p-3">
-                                        <h5 class="card-title"><b>Reading Books</b></h5>
-                                    </div>
-                                    <p class="card-text">I always end up sleeping after 2 lines of reading a
-                                                         book. That is why SLEEPING is my favourite hobby cum
-                                                         pasttime, but not with anyone though. I sleep only
-                                                         with my side pillow or books. #singleforever</p>
-                                </div>
-                            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 stagger">
+                <div class="col reveal">
+                    <article class="hobby-card">
+                        <div class="hobby-media">
+                            <img src="hnb1.jpg" alt="A stack of books" loading="lazy">
                         </div>
-
-                        <div class="col-lg-3 col-md-12 mb-4">
-                            <div class="card h-100 shadow-lg">
-                                <div class="card-body">
-                                    <img src="hnb2.png" width="100%" height="50%">
-                                    <div class="text-center p-3">
-                                        <h5 class="card-title"><b>Gymming</b></h5>
-                                    </div>
-                                    <p class="card-text">Eating is my gymming. I only exercise in my dreams and eat
-                                        only when I'm not dreaming...</p>
-                                </div>
-                            </div>
+                        <div class="hobby-body">
+                            <h3 class="hobby-title">Reading Books</h3>
+                            <p class="hobby-text">I always end up sleeping after 2 lines of reading a
+                                book. That is why SLEEPING is my favourite hobby cum
+                                pasttime, but not with anyone though. I sleep only
+                                with my side pillow or books. #singleforever</p>
                         </div>
+                    </article>
+                </div>
 
-                        <div class="col-lg-3 col-md-12 mb-4">
-                            <div class="card h-100 shadow-lg">
-                                <div class="card-body">
-                                    <img src="hnb3.jpg" width="100%" height="50%">
-                                    <div class="text-center p-3">
-                                        <h5 class="card-title"><b>Coding</b></h5>
-                                    </div>
-                                    <p class="card-text">I've completed my graduation in computer science
-                                        and engineering, so whether I like it or not, CODING is my most favourite
-                                        hobby & interest as well...</p>
-                                </div>
-                            </div>
+                <div class="col reveal">
+                    <article class="hobby-card">
+                        <div class="hobby-media">
+                            <img src="hnb2.png" alt="Gym equipment" loading="lazy">
                         </div>
-
-                        <div class="col-lg-3 col-md-12 mb-4">
-                            <div class="card h-100 shadow-lg">
-                                <div class="card-body">
-                                    <img src="hnb4.jpg" width="100%" height="50%">
-                                    <div class="text-center p-3">
-                                        <h5 class="card-title"><b>Writing</b></h5>
-                                    </div>
-                                    <p class="card-text">Just like to think about anything, anytime,
-                                        anywhere. I forget what I think everytime, because of my poor
-                                        memory power. That's why I WRITE them down, so that I remember
-                                        what I'm about to forget...</p>
-                                </div>
-                            </div>
+                        <div class="hobby-body">
+                            <h3 class="hobby-title">Gymming</h3>
+                            <p class="hobby-text">Eating is my gymming. I only exercise in my dreams and eat
+                                only when I'm not dreaming...</p>
                         </div>
+                    </article>
+                </div>
 
-                    </div>
+                <div class="col reveal">
+                    <article class="hobby-card">
+                        <div class="hobby-media">
+                            <img src="hnb3.jpg" alt="A laptop with code on the screen" loading="lazy">
+                        </div>
+                        <div class="hobby-body">
+                            <h3 class="hobby-title">Coding</h3>
+                            <p class="hobby-text">I've completed my graduation in computer science
+                                and engineering, so whether I like it or not, CODING is my most favourite
+                                hobby &amp; interest as well...</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col reveal">
+                    <article class="hobby-card">
+                        <div class="hobby-media">
+                            <img src="hnb4.jpg" alt="A notebook and pen" loading="lazy">
+                        </div>
+                        <div class="hobby-body">
+                            <h3 class="hobby-title">Writing</h3>
+                            <p class="hobby-text">Just like to think about anything, anytime,
+                                anywhere. I forget what I think everytime, because of my poor
+                                memory power. That's why I WRITE them down, so that I remember
+                                what I'm about to forget...</p>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!--Blogs-->
-        <section id="blog">
-            <h1 style="color: #915b8c; text-align: center;">My Blogs</h1>
-            <h5 style="text-align: center"><b>Here's some(three, to be precise) of my blogs' glimpse</b></h5>
-            </br>
-
-            <div class="container cta-100 ">
-                <div class="container">
-                    <div class="row blog">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-md-4" >
-                                    <div class="item-box-blog">
-                                        <div class="item-box-blog-image">
-                                            <!--Date-->
-                                            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Apr 05</span> </div>
-                                            <!--Image-->
-                                            <figure> <img alt="" src="Blank-Template-Wallpaper-removebg-preview.png"> </figure>
-                                        </div>
-                                        <div class="item-box-blog-body">
-                                            <!--Heading-->
-                                            <div class="item-box-blog-heading">
-                                                <a href="https://oayankh.blogspot.com/2022/04/crimes-english-version.html" tabindex="0">
-                                                    <h5>Crimes Now and Then</h5>
-                                                </a>
-                                            </div>
-                                            <!--Data-->
-                                            <div class="item-box-blog-data" style="padding: px 15px;">
-                                                <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(0)</p>
-                                            </div>
-                                            <!--Text-->
-                                            <div class="item-box-blog-text">
-                                                <p>All these drivers believe that occurring an accident is a movie
-                                                    audition of sort; they’ll become Salman Khan all on a sudden.
-                                                    Oh deer (*dear)! They don’t know that they’ll have to kill
-                                                    some animals as well...</p>
-                                            </div>
-                                            <div class="mt"> <a href="https://oayankh.blogspot.com/2022/04/crimes-english-version.html" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
-                                            <!--Read More Button-->
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4" >
-                                    <div class="item-box-blog">
-                                        <div class="item-box-blog-image">
-                                            <!--Date-->
-                                            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Apr 06</span> </div>
-                                            <!--Image-->
-                                            <figure> <img alt="" src="feminism.PNG"> </figure>
-                                        </div>
-                                        <div class="item-box-blog-body">
-                                            <!--Heading-->
-                                            <div class="item-box-blog-heading">
-                                                <a href="https://oayankh.blogspot.com/2022/04/fenism.html" tabindex="0">
-                                                    <h5>Feminism</h5>
-                                                </a>
-                                            </div>
-                                            <!--Data-->
-                                            <div class="item-box-blog-data" style="padding: px 15px;">
-                                                <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(0)</p>
-                                            </div>
-                                            <!--Text-->
-                                            <div class="item-box-blog-text">
-                                                <p>কিন্তু আমি anti feminist... Yes! কারন, of course, নারী জাতি। আইচ্ছা, hypothetically ধরেন একদিন
-
-                                                    পুরা দুনিয়া feminism support করে;
-                                                    মেয়েদের কাপড়-চোপড়, চাল-চলন নিয়া কোন প্রশ্ন নাই, বাধা নাই;</p>
-                                            </div>
-                                            <div class="mt"> <a href="https://oayankh.blogspot.com/2022/04/fenism.html" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
-                                            <!--Read More Button-->
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4" >
-                                    <div class="item-box-blog">
-                                        <div class="item-box-blog-image">
-                                            <!--Date-->
-                                            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Apr 23</span> </div>
-                                            <!--Image-->
-                                            <figure> <img alt="" src="no%20smoking.PNG" style="width: 67%"> </figure>
-                                        </div>
-                                        <div class="item-box-blog-body">
-                                            <!--Heading-->
-                                            <div class="item-box-blog-heading">
-                                                <a href="https://oayankh.blogspot.com/2022/04/blog-post.html" tabindex="0">
-                                                    <h5>Say NO to Smoking</h5>
-                                                </a>
-                                            </div>
-                                            <!--Data-->
-                                            <div class="item-box-blog-data" style="padding: px 15px;">
-                                                <p><i class="fa fa-user-o"></i> Admin, <i class="fa fa-comments-o"></i> Comments(0)</p>
-                                            </div>
-                                            <!--Text-->
-                                            <div class="item-box-blog-text">
-                                                <p>মেয়েদেরকে জিজ্ঞাসা করা হইলে, they're like, "first of all, it's cigarette, not বিড়ি.
-                                                    And cigarette অনেক cool and attractive." আরেহ্‌, আগুন টানতাছেন, আগুন cool হয় কেমনে!
-                                                    And yes, it is attractive,</p>
-                                            </div>
-                                            <div class="mt"> <a href="https://oayankh.blogspot.com/2022/04/blog-post.html" tabindex="0" class="btn bg-blue-ui white read">read more</a> </div>
-                                            <!--Read More Button-->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        <!--.row-->
-                        </div>
-                    </div>
-                </div>
+    <!-- ================= Blogs ================= -->
+    <section class="section" id="blog">
+        <div class="container">
+            <div class="section-head">
+                <p class="section-kicker">Written down</p>
+                <h2 class="section-title">My Blogs</h2>
+                <p class="section-sub">Here's some (three, to be precise) of my blogs' glimpse</p>
             </div>
-        </section>
 
-        </br></br></br>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 stagger">
 
-        <!--Video Contents-->
-        <section id="content">
-            <h1 style="color: #915b8c; text-align: center;">Scripted By O.K.</h1>
-            <h5 style="text-align: center"><b>Finally, some of my "So-Called CREATIVE" Video Contents that I've written
-                for a so-called "cool" content creator named CoolLitchu.</b></h5> </br>
-
-            <div class="container cta-100 ">
-                <div class="container">
-                    <div class="row blog">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-md-4" >
-                                    <div class="item-box-blog">
-                                        <div class="item-box-blog-image">
-                                            <!--Date-->
-                                            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Aug 15, '21</span> </div>
-                                            <!--Image-->
-                                            <figure> <img alt="" src="friend.PNG" style="width: 67%"> </figure>
-                                        </div>
-                                        <div class="item-box-blog-body">
-                                            <!--Heading-->
-                                            <div class="item-box-blog-heading">
-                                                <a href="https://fb.watch/hj5Ug2-egr/" tabindex="0">
-                                                    <h5>Mangu Friend Before and After Covid</h5>
-                                                </a>
-                                            </div>
-                                            <!--Data-->
-                                            <div class="item-box-blog-data" style="padding: px 15px;">
-                                                <p><i class="fa fa-user-o"></i> Shares(8)<i class="fa fa-comments-o"></i> Comments(0)</p>
-                                            </div>
-                                            <!--Text-->
-                                            <div class="item-box-blog-text">
-                                                <p>The mangu friends always have to take something from you. Might as well give
-                                                them your Covid-19 Virus...</p>
-                                            </div>
-                                            <div class="mt"> <a href="https://fb.watch/hj5Ug2-egr/" tabindex="0" class="btn bg-blue-ui white read">watch the video</a> </div>
-                                            <!--Read More Button-->
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4" >
-                                    <div class="item-box-blog">
-                                        <div class="item-box-blog-image">
-                                            <!--Date-->
-                                            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Apr 14, '21</span> </div>
-                                            <!--Image-->
-                                            <figure> <img alt="" src="valentine.PNG"> </figure>
-                                        </div> </br></br>
-                                        <div class="item-box-blog-body">
-                                            <!--Heading-->
-                                            <div class="item-box-blog-heading">
-                                                <a href="https://fb.watch/hj661mbs5-/" tabindex="0">
-                                                    <h5>(Happy?) Valentine's Day</h5>
-                                                </a>
-                                            </div>
-                                            <!--Data-->
-                                            <div class="item-box-blog-data" style="padding: px 15px;">
-                                                <p><i class="fa fa-user-o"></i> Shares(12)<i class="fa fa-comments-o"></i> Comments(3)</p>
-                                            </div>
-                                            <!--Text-->
-                                            <div class="item-box-blog-text">
-                                                <p>Tiger Baba takes quiz on the Dates that people celebrate in February.
-                                                    Litchu fails. Dudu uncle passes.. Dada rocks, as usual...</p>
-                                            </div>
-                                            <div class="mt"> <a href="https://fb.watch/hj661mbs5-/" tabindex="0" class="btn bg-blue-ui white read">watch the video</a> </div>
-                                            <!--Read More Button-->
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-4" >
-                                    <div class="item-box-blog">
-                                        <div class="item-box-blog-image">
-                                            <!--Date-->
-                                            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">May 24, '20</span> </div>
-                                            <!--Image-->
-                                            <figure> <img alt="" src="eid.PNG"> </figure>
-                                        </div>
-                                        </br></br>
-                                        <div class="item-box-blog-body">
-                                            <!--Heading-->
-                                            <div class="item-box-blog-heading">
-                                                <a href="https://fb.watch/hj79QHQei6/" tabindex="0">
-                                                    <h5>Quarantined Eid</h5>
-                                                </a>
-                                            </div>
-                                            <!--Data-->
-                                            <div class="item-box-blog-data" style="padding: px 15px;">
-                                                <p><i class="fa fa-user-o"></i> Shares(62)<i class="fa fa-comments-o"></i> Comments(27)</p>
-                                            </div></br>
-                                            <!--Text-->
-                                            <div class="item-box-blog-text">
-                                                <p>Pervert Dada wins Dadi's heart and Litchu loses Dada's Salami</p>
-                                            </div>
-                                            <div class="mt"> <a href="https://fb.watch/hj79QHQei6/" tabindex="0" class="btn bg-blue-ui white read">watch the video</a> </div>
-                                            <!--Read More Button-->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--.row-->
+                <div class="col reveal">
+                    <article class="entry-card">
+                        <div class="entry-media">
+                            <span class="entry-date">Apr 05</span>
+                            <img src="Blank-Template-Wallpaper-removebg-preview.png" alt="" loading="lazy">
                         </div>
-                    </div>
+                        <div class="entry-body">
+                            <h3 class="entry-title">
+                                <a href="https://oayankh.blogspot.com/2022/04/crimes-english-version.html">Crimes Now and Then</a>
+                            </h3>
+                            <p class="entry-meta"><span>Admin</span><span>Comments (0)</span></p>
+                            <p class="entry-text">All these drivers believe that occurring an accident is a movie
+                                audition of sort; they'll become Salman Khan all on a sudden.
+                                Oh deer (*dear)! They don't know that they'll have to kill
+                                some animals as well...</p>
+                            <a class="entry-link" href="https://oayankh.blogspot.com/2022/04/crimes-english-version.html">read more</a>
+                        </div>
+                    </article>
                 </div>
+
+                <div class="col reveal">
+                    <article class="entry-card">
+                        <div class="entry-media">
+                            <span class="entry-date">Apr 06</span>
+                            <img src="feminism.PNG" alt="" loading="lazy">
+                        </div>
+                        <div class="entry-body">
+                            <h3 class="entry-title">
+                                <a href="https://oayankh.blogspot.com/2022/04/fenism.html">Feminism</a>
+                            </h3>
+                            <p class="entry-meta"><span>Admin</span><span>Comments (0)</span></p>
+                            <p class="entry-text">কিন্তু আমি anti feminist... Yes! কারন, of course, নারী জাতি। আইচ্ছা, hypothetically ধরেন একদিন
+                                পুরা দুনিয়া feminism support করে;
+                                মেয়েদের কাপড়-চোপড়, চাল-চলন নিয়া কোন প্রশ্ন নাই, বাধা নাই;</p>
+                            <a class="entry-link" href="https://oayankh.blogspot.com/2022/04/fenism.html">read more</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col reveal">
+                    <article class="entry-card">
+                        <div class="entry-media">
+                            <span class="entry-date">Apr 23</span>
+                            <img src="no%20smoking.PNG" alt="" loading="lazy">
+                        </div>
+                        <div class="entry-body">
+                            <h3 class="entry-title">
+                                <a href="https://oayankh.blogspot.com/2022/04/blog-post.html">Say NO to Smoking</a>
+                            </h3>
+                            <p class="entry-meta"><span>Admin</span><span>Comments (0)</span></p>
+                            <p class="entry-text">মেয়েদেরকে জিজ্ঞাসা করা হইলে, they're like, "first of all, it's cigarette, not বিড়ি.
+                                And cigarette অনেক cool and attractive." আরেহ্‌, আগুন টানতাছেন, আগুন cool হয় কেমনে!
+                                And yes, it is attractive,</p>
+                            <a class="entry-link" href="https://oayankh.blogspot.com/2022/04/blog-post.html">read more</a>
+                        </div>
+                    </article>
+                </div>
+
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!--Footer-->
-        <section>
-            <footer>
-                <div class="social-media-links">
-                    <ul>
-                        <!-- facebook -->
-                        <li>
-                            <a href="https://facebook.com/okormakhondaker">
-                                <svg class="glow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
-                                    <path class="st0" d="M28.3 0.1H1.7c-0.9 0-1.6 0.7-1.6 1.6v26.5c0 0.9 0.7 1.6 1.6 1.6H16V18.4h-3.9v-4.5H16v-3.3c0-3.9 2.4-5.9 5.8-5.9 1.6 0 3.1 0.1 3.5 0.2v4l-2.4 0c-1.9 0-2.2 0.9-2.2 2.2v2.9h4.5l-0.6 4.5h-3.9v11.5h7.6c0.9 0 1.6-0.7 1.6-1.6V1.7C29.9 0.8 29.2 0.1 28.3 0.1z"/>
-                                </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
-                                    <path class="st0" d="M28.3 0.1H1.7c-0.9 0-1.6 0.7-1.6 1.6v26.5c0 0.9 0.7 1.6 1.6 1.6H16V18.4h-3.9v-4.5H16v-3.3c0-3.9 2.4-5.9 5.8-5.9 1.6 0 3.1 0.1 3.5 0.2v4l-2.4 0c-1.9 0-2.2 0.9-2.2 2.2v2.9h4.5l-0.6 4.5h-3.9v11.5h7.6c0.9 0 1.6-0.7 1.6-1.6V1.7C29.9 0.8 29.2 0.1 28.3 0.1z"/>
-                                </svg>
-                            </a>
-                        </li>
+    <!-- ================= Scripted Contents ================= -->
+    <section class="section section--white" id="content">
+        <div class="container">
+            <div class="section-head">
+                <p class="section-kicker">On screen</p>
+                <h2 class="section-title">Scripted By O.K.</h2>
+                <p class="section-sub">Finally, some of my "So-Called CREATIVE" Video Contents that I've written
+                    for a so-called "cool" content creator named CoolLitchu.</p>
+            </div>
 
-                        <!-- instagram -->
-                        <li>
-                            <a href="https://www.instagram.com/oayan.khondaker/">
-                                <svg class="glow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
-                                    <path class="st0" d="M15 2.8c4 0 4.4 0 6 0.1 1.4 0.1 2.2 0.3 2.8 0.5 0.7 0.3 1.2 0.6 1.7 1.1 0.5 0.5 0.8 1 1.1 1.7C26.8 6.8 27 7.6 27.1 9c0.1 1.6 0.1 2 0.1 6s0 4.4-0.1 6c-0.1 1.4-0.3 2.2-0.5 2.8 -0.3 0.7-0.6 1.2-1.1 1.7 -0.5 0.5-1 0.8-1.7 1.1 -0.5 0.2-1.3 0.4-2.8 0.5 -1.6 0.1-2 0.1-6 0.1s-4.4 0-6-0.1c-1.4-0.1-2.2-0.3-2.8-0.5 -0.7-0.3-1.2-0.6-1.7-1.1 -0.5-0.5-0.8-1-1.1-1.7C3.2 23.2 3 22.4 2.9 21c-0.1-1.6-0.1-2-0.1-6s0-4.4 0.1-6C3 7.6 3.2 6.8 3.4 6.2 3.7 5.5 4 5.1 4.5 4.5c0.5-0.5 1-0.8 1.7-1.1C6.8 3.2 7.6 3 9 2.9 10.6 2.8 11 2.8 15 2.8M15 0.2c-4 0-4.5 0-6.1 0.1C7.3 0.3 6.2 0.6 5.3 0.9c-1 0.4-1.8 0.9-2.6 1.7C1.8 3.5 1.3 4.3 0.9 5.3c-0.4 0.9-0.6 2-0.7 3.6C0.2 10.5 0.1 11 0.1 15c0 4 0 4.5 0.1 6.1 0.1 1.6 0.3 2.7 0.7 3.6 0.4 1 0.9 1.8 1.7 2.6 0.8 0.8 1.7 1.3 2.6 1.7 0.9 0.4 2 0.6 3.6 0.7 1.6 0.1 2.1 0.1 6.1 0.1s4.5 0 6.1-0.1c1.6-0.1 2.7-0.3 3.6-0.7 1-0.4 1.8-0.9 2.6-1.7 0.8-0.8 1.3-1.7 1.7-2.6 0.4-0.9 0.6-2 0.7-3.6 0.1-1.6 0.1-2.1 0.1-6.1s0-4.5-0.1-6.1c-0.1-1.6-0.3-2.7-0.7-3.6 -0.4-1-0.9-1.8-1.7-2.6 -0.8-0.8-1.7-1.3-2.6-1.7 -0.9-0.4-2-0.6-3.6-0.7C19.5 0.2 19 0.2 15 0.2L15 0.2z"/>
-                                    <path class="st0" d="M15 7.4c-4.2 0-7.6 3.4-7.6 7.6s3.4 7.6 7.6 7.6 7.6-3.4 7.6-7.6S19.2 7.4 15 7.4zM15 20c-2.7 0-5-2.2-5-5s2.2-5 5-5c2.7 0 5 2.2 5 5S17.7 20 15 20z"/>
-                                    <circle class="st0" cx="22.9" cy="7.1" r="1.8"/>
-                                </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
-                                    <path class="st0" d="M15 2.8c4 0 4.4 0 6 0.1 1.4 0.1 2.2 0.3 2.8 0.5 0.7 0.3 1.2 0.6 1.7 1.1 0.5 0.5 0.8 1 1.1 1.7C26.8 6.8 27 7.6 27.1 9c0.1 1.6 0.1 2 0.1 6s0 4.4-0.1 6c-0.1 1.4-0.3 2.2-0.5 2.8 -0.3 0.7-0.6 1.2-1.1 1.7 -0.5 0.5-1 0.8-1.7 1.1 -0.5 0.2-1.3 0.4-2.8 0.5 -1.6 0.1-2 0.1-6 0.1s-4.4 0-6-0.1c-1.4-0.1-2.2-0.3-2.8-0.5 -0.7-0.3-1.2-0.6-1.7-1.1 -0.5-0.5-0.8-1-1.1-1.7C3.2 23.2 3 22.4 2.9 21c-0.1-1.6-0.1-2-0.1-6s0-4.4 0.1-6C3 7.6 3.2 6.8 3.4 6.2 3.7 5.5 4 5.1 4.5 4.5c0.5-0.5 1-0.8 1.7-1.1C6.8 3.2 7.6 3 9 2.9 10.6 2.8 11 2.8 15 2.8M15 0.2c-4 0-4.5 0-6.1 0.1C7.3 0.3 6.2 0.6 5.3 0.9c-1 0.4-1.8 0.9-2.6 1.7C1.8 3.5 1.3 4.3 0.9 5.3c-0.4 0.9-0.6 2-0.7 3.6C0.2 10.5 0.1 11 0.1 15c0 4 0 4.5 0.1 6.1 0.1 1.6 0.3 2.7 0.7 3.6 0.4 1 0.9 1.8 1.7 2.6 0.8 0.8 1.7 1.3 2.6 1.7 0.9 0.4 2 0.6 3.6 0.7 1.6 0.1 2.1 0.1 6.1 0.1s4.5 0 6.1-0.1c1.6-0.1 2.7-0.3 3.6-0.7 1-0.4 1.8-0.9 2.6-1.7 0.8-0.8 1.3-1.7 1.7-2.6 0.4-0.9 0.6-2 0.7-3.6 0.1-1.6 0.1-2.1 0.1-6.1s0-4.5-0.1-6.1c-0.1-1.6-0.3-2.7-0.7-3.6 -0.4-1-0.9-1.8-1.7-2.6 -0.8-0.8-1.7-1.3-2.6-1.7 -0.9-0.4-2-0.6-3.6-0.7C19.5 0.2 19 0.2 15 0.2L15 0.2z"/>
-                                    <path class="st0" d="M15 7.4c-4.2 0-7.6 3.4-7.6 7.6s3.4 7.6 7.6 7.6 7.6-3.4 7.6-7.6S19.2 7.4 15 7.4zM15 20c-2.7 0-5-2.2-5-5s2.2-5 5-5c2.7 0 5 2.2 5 5S17.7 20 15 20z"/>
-                                    <circle class="st0" cx="22.9" cy="7.1" r="1.8"/>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 stagger">
+
+                <div class="col reveal">
+                    <article class="entry-card">
+                        <div class="entry-media">
+                            <span class="entry-date">Aug 15, '21</span>
+                            <img src="friend.PNG" alt="" loading="lazy">
+                        </div>
+                        <div class="entry-body">
+                            <h3 class="entry-title">
+                                <a href="https://fb.watch/hj5Ug2-egr/">Mangu Friend Before and After Covid</a>
+                            </h3>
+                            <p class="entry-meta"><span>Shares (8)</span><span>Comments (0)</span></p>
+                            <p class="entry-text">The mangu friends always have to take something from you. Might as well give
+                                them your Covid-19 Virus...</p>
+                            <a class="entry-link" href="https://fb.watch/hj5Ug2-egr/">watch the video</a>
+                        </div>
+                    </article>
                 </div>
-            </footer>
-        </section>
 
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-		
-    </body>
+                <div class="col reveal">
+                    <article class="entry-card">
+                        <div class="entry-media">
+                            <span class="entry-date">Apr 14, '21</span>
+                            <img src="valentine.PNG" alt="" loading="lazy">
+                        </div>
+                        <div class="entry-body">
+                            <h3 class="entry-title">
+                                <a href="https://fb.watch/hj661mbs5-/">(Happy?) Valentine's Day</a>
+                            </h3>
+                            <p class="entry-meta"><span>Shares (12)</span><span>Comments (3)</span></p>
+                            <p class="entry-text">Tiger Baba takes quiz on the Dates that people celebrate in February.
+                                Litchu fails. Dudu uncle passes.. Dada rocks, as usual...</p>
+                            <a class="entry-link" href="https://fb.watch/hj661mbs5-/">watch the video</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col reveal">
+                    <article class="entry-card">
+                        <div class="entry-media">
+                            <span class="entry-date">May 24, '20</span>
+                            <img src="eid.PNG" alt="" loading="lazy">
+                        </div>
+                        <div class="entry-body">
+                            <h3 class="entry-title">
+                                <a href="https://fb.watch/hj79QHQei6/">Quarantined Eid</a>
+                            </h3>
+                            <p class="entry-meta"><span>Shares (62)</span><span>Comments (27)</span></p>
+                            <p class="entry-text">Pervert Dada wins Dadi's heart and Litchu loses Dada's Salami</p>
+                            <a class="entry-link" href="https://fb.watch/hj79QHQei6/">watch the video</a>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ================= Footer ================= -->
+<footer class="site-footer">
+    <div class="container text-center">
+        <a class="footer-brand" href="#top">
+            <span class="brand-mark" aria-hidden="true">OK</span>
+            <span>Khondaker Tanzim Alam</span>
+        </a>
+
+        <p class="footer-line">Scripted, coded &amp; overthought by this guy right here.</p>
+
+        <ul class="social-links">
+            <li>
+                <a href="https://facebook.com/okormakhondaker" aria-label="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.51 1.49-3.9 3.77-3.9 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.78-1.63 1.57v1.88h2.78l-.45 2.91h-2.33V22c4.78-.76 8.45-4.92 8.45-9.94Z"/>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/oayan.khondaker/" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16Zm0 1.8c-3.14 0-3.5.01-4.73.07-.9.04-1.39.19-1.71.32-.43.17-.74.37-1.06.69-.32.32-.52.63-.69 1.06-.13.32-.28.81-.32 1.71-.06 1.23-.07 1.59-.07 4.73s.01 3.5.07 4.73c.04.9.19 1.39.32 1.71.17.43.37.74.69 1.06.32.32.63.52 1.06.69.32.13.81.28 1.71.32 1.23.06 1.59.07 4.73.07s3.5-.01 4.73-.07c.9-.04 1.39-.19 1.71-.32.43-.17.74-.37 1.06-.69.32-.32.52-.63.69-1.06.13-.32.28-.81.32-1.71.06-1.23.07-1.59.07-4.73s-.01-3.5-.07-4.73c-.04-.9-.19-1.39-.32-1.71a2.9 2.9 0 0 0-.69-1.06 2.9 2.9 0 0 0-1.06-.69c-.32-.13-.81-.28-1.71-.32-1.23-.06-1.59-.07-4.73-.07Zm0 3.06a4.98 4.98 0 1 1 0 9.96 4.98 4.98 0 0 1 0-9.96Zm0 1.8a3.18 3.18 0 1 0 0 6.36 3.18 3.18 0 0 0 0-6.36Zm5.2-2.02a1.16 1.16 0 1 1 0 2.32 1.16 1.16 0 0 1 0-2.32Z"/>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/TanzimAlam" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://oayankh.blogspot.com/" aria-label="Blog">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M21.5 7.5h-2A5.5 5.5 0 0 0 14 2h-2.5A9.5 9.5 0 0 0 2 11.5V16a6 6 0 0 0 6 6h5.5A9.5 9.5 0 0 0 23 12.5V9a1.5 1.5 0 0 0-1.5-1.5ZM7 17.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5Zm10-1.25h-5.5a1.25 1.25 0 0 1 0-2.5H17a1.25 1.25 0 0 1 0 2.5Zm0-5H7a1.25 1.25 0 0 1 0-2.5h10a1.25 1.25 0 0 1 0 2.5Z"/>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+
+        <p class="footer-copy">&copy; 2026 &middot; All the bad jokes are original.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="jscripts.js"></script>
+
+</body>
 </html>
