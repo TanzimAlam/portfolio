@@ -8,6 +8,8 @@
     --surface-dark: #0b1220;
     --accent: #0d9488;
     --accent-soft: #5eead4;
+    --name: #a03d75;
+    --name-soft: #e9a8c8;
     --canvas: #f6f8fa;
     --ink: #111827;
     --muted: #556270;
@@ -196,6 +198,11 @@ a {
     }
 }
 
+.brand-text {
+    color: var(--name);
+    font-weight: 500;
+}
+
 @media (max-width: 419.98px) {
     .brand-text {
         display: none;
@@ -253,7 +260,7 @@ a {
 }
 
 .hero-title .accent {
-    background: linear-gradient(110deg, var(--brand) 10%, var(--accent) 55%, #0891b2 95%);
+    background: linear-gradient(110deg, #8c2f62 5%, #b03a7a 55%, #cd5f95 95%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -523,7 +530,7 @@ a {
 
 .about-signature {
     margin: 1.6rem 0 0;
-    color: var(--accent-soft);
+    color: var(--name-soft);
     font-family: var(--font-display);
     font-size: clamp(.95rem, 2.2vw, 1.05rem);
     font-style: italic;
@@ -741,6 +748,10 @@ a {
     font-size: .95rem;
     font-weight: 500;
     text-decoration: none;
+}
+
+.footer-brand > span:not(.brand-mark) {
+    color: var(--name-soft);
 }
 
 .footer-line {
