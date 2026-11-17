@@ -94,19 +94,17 @@ a {
     text-decoration: none;
 }
 
-.brand-mark {
-    display: grid;
-    place-items: center;
+/* The logo artwork is stored rotated 180deg, so it is turned back here
+   and cropped to a circle to drop the black square corners. */
+.brand-logo {
     width: 40px;
     height: 40px;
     flex: 0 0 40px;
-    border-radius: 13px;
-    background: linear-gradient(135deg, var(--brand), var(--accent-soft));
-    box-shadow: 0 10px 22px -12px rgba(15, 118, 110, .5);
-    color: #fff;
-    font-size: .8rem;
-    font-weight: 700;
-    letter-spacing: .06em;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #000;
+    box-shadow: 0 8px 18px -10px rgba(15, 23, 42, .8);
+    transform: rotate(180deg);
 }
 
 .navbar-nav {
@@ -750,8 +748,15 @@ a {
     text-decoration: none;
 }
 
-.footer-brand > span:not(.brand-mark) {
+.footer-brand > span {
     color: var(--name-soft);
+}
+
+.footer-brand .brand-logo {
+    width: 44px;
+    height: 44px;
+    flex: 0 0 44px;
+    box-shadow: 0 10px 24px -12px rgba(0, 0, 0, .95);
 }
 
 .footer-line {
